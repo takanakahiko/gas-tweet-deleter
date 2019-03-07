@@ -1,11 +1,6 @@
-import { SheetService } from './sheet.service';
+import Twitter from './twitter';
 
-function createNewFile(): void {
-  const ss = SheetService.createInitialFile('New file');
-  ss.getRange('A2').setValue('Happy gas!');
-}
-
-function test(){
-  console.log("test");
-  return 'hoge'
+function test() {
+  const twitter = new Twitter('', '', '', '');
+  return 'hoge';
 }
