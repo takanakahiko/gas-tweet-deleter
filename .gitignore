@@ -13,3 +13,5 @@ node_modules/
 
 # Credentials file should be private
 .clasp.json
+.clasprc.json
+creds.json
