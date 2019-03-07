@@ -1,6 +1,11 @@
 {
   "timeZone": "Asia/Tokyo",
-  "dependencies": {
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "executionApi": {
+    "access": "ANYONE"
   },
-  "exceptionLogging": "STACKDRIVER"
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets"
+  ]
 }
