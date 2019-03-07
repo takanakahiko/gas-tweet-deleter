@@ -1,0 +1,23 @@
+{
+  "name": "gas-tweet-deleter",
+  "version": "1.0.0",
+  "description": "My polished Google Apps Script project",
+  "author": "takanakahiko",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --fix src/**/*.ts",
+    "preprocess": "npm run lint",
+    "dev": "watch \"npm run preprocess && clasp push\" ./src",
+    "dev:local": "watch \"npm run preprocess\" ./src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "watch": "latest",
+    "typescript": "latest",
+    "@types/google-apps-script": "latest",
+    "tslint": "latest",
+    "prettier": "latest",
+    "tslint-config-prettier": "latest",
+    "tslint-plugin-prettier": "latest"
+  }
+}
