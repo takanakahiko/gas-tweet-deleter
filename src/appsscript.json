@@ -1,11 +1,15 @@
 {
   "timeZone": "Asia/Tokyo",
-  "dependencies": {},
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "OAuth1",
+      "libraryId": "1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s",
+      "version": "16"
+    }]
+  },
   "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/spreadsheets"],
   "executionApi": {
     "access": "ANYONE"
-  },
-  "oauthScopes": [
-    "https://www.googleapis.com/auth/spreadsheets"
-  ]
+  }
 }
