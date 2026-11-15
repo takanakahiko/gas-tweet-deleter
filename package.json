@@ -19,5 +19,8 @@
     "prettier": "latest",
     "tslint-config-prettier": "latest",
     "tslint-plugin-prettier": "latest"
+  },
+  "overrides": {
+    "merge": "^2.1.1"
   }
 }
